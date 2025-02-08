@@ -59,20 +59,27 @@ color: #eadede;
   outline: 0;
 }
 
+.form-control label{
+position: absolute;
+top: 15px;
+left: 0;
+}
+
 .btn {
   cursor:pointer;
   display:inline-block;
-  width: 100%;
   background-color: lightgreen;
-  padding: 15px;
+  padding: 35px;
   font-family: inherit;
   font-size: 16px;
   border: 0;
-  border-radius: 7px;
+  border-radius: 5%;
+  width: 100%;
 }
 
 text{
   margin-top: 30px;
+  
 }
 .btn:focus{
   outline: 0;
