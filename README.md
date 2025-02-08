@@ -13,6 +13,5 @@ Easy integration into your website or project.
 # Demo Video
 Check out the demo of this project:
 
-[Watch the demo](./demo%20video.mp4.)
-
+[!Watch the demo](demovideo.mp4)
 
