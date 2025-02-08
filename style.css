@@ -6,7 +6,7 @@ box-sizing: border-box;
 
 body {
  font-family: 'Muli, sans-serif';
- background-color: rgb(211, 137, 184);
+ background-color: rgb(23, 21, 23);
  color: black;
  display: flex;
  flex-direction: column;
@@ -19,7 +19,7 @@ body {
 }
 
 .container{
-  background-color: rgba(214, 98, 98, 0.4);
+  background-color: rgba(103, 144, 153, 0.4);
   padding: 20px 40px;
   border-radius: 5px;
   
@@ -28,13 +28,13 @@ body {
 .container h1{
   text-align: center;
   margin-bottom: 35px;
-  color: rgb(83, 83, 205);
+  color: rgb(157, 157, 227);
   border-color: rgb(99, 24, 169);
 }
 
 .container a{
 text-decoration: none;
-color: rgb(53, 208, 157);
+color: rgb(104, 220, 181);
 }
 
 .form-control{
@@ -46,15 +46,37 @@ color: rgb(53, 208, 157);
 .form-control input{
 background-color: transparent;
 border: 0;
-border-bottom: 2px #fff solid;
+border-bottom: 4px #fff solid;
 display: block;
 width: 100%;
 padding: 15px 0;
 font-size: 19px;
-color: #4d4747;
+color: #eadede;
 }
 
 .form-control input:focus,
 .form-control input:valid{
   outline: 0;
+}
+
+.btn {
+  cursor:pointer;
+  display:inline-block;
+  width: 100%;
+  background-color: lightgreen;
+  padding: 15px;
+  font-family: inherit;
+  font-size: 16px;
+  border: 0;
+  border-radius: 7px;
+}
+
+text{
+  margin-top: 30px;
+}
+.btn:focus{
+  outline: 0;
+}
+.btn:active{
+  transform: scale(0.98);
 }
