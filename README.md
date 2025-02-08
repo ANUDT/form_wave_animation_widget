@@ -8,3 +8,11 @@ Smooth wave animation using pure CSS and JavaScript.
 Customizable wave speed, direction, and color.
 Responsive and lightweight, no external dependencies.
 Easy integration into your website or project.
+
+
+# Demo Video
+Check out the demo of this project:
+
+[Watch the demo](./demo%20video.mp4.)
+
+
